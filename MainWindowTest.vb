@@ -13,7 +13,7 @@ Public Class MainWindowTests
 
     <Test>
     Public Sub Test_LoadButtonContentsFromIniFile()
-        ' Arrange - Setting up any necessary data for the test.
+        ' Arrange - Setting up any necessary data for the test..
         Dim inipath As String = mainWindow.GetIniFilePath()
         ' Clean up the ini file and re-create it with known data before testing
         If File.Exists(inipath) Then File.Delete(inipath)
